@@ -14,7 +14,7 @@ function triggerZap(name, email, message, setData) {
 
 try {
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://hooks.zapier.com/hooks/catch/14826135/3355td9/");
+    xhr.open("POST", "put your zappier werbhook link here");
     xhr.send(JSON.stringify(data));
     console.log("Pushed to Zapier successfully!");
 
